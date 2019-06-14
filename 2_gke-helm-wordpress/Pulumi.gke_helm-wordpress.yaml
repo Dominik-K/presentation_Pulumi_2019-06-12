@@ -1,0 +1,5 @@
+encryptionsalt: v1:N4lKeh/Daxw=:v1:iwiKoMuY+l9e1AZW:dpQn29UDhVbNRYhq982Kwbn5nJFiLw==
+config:
+  gcp:project: gms-apps
+  gcp:zone: europe-west1-b
+  wordpress:isMinikube: "false"

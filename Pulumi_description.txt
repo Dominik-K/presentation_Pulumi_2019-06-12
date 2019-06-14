@@ -1,0 +1,19 @@
+Pulumi is a 3 years old (published 2016, free software) CLI program to configure clouds & tools with SDKs in modern programming languages/frameworks (TypeScript, Python, Go, .NET). It is develop by the startup Pulumi, Inc., based in Seattle, Washington (currently 15 developers, based on [Github organization](https://github.com/orgs/pulumi/people)).
+
+All Terraform providers can be used (see [Pulumi-Terraform-bridge](https://github.com/pulumi/pulumi-terraform)), which are a lot. Some examples:
+
+* AWS (maintained by Terraform)
+* GCloud ([maintained by Google & Terraform](https://www.terraform.io/docs/providers/google/))
+* Azure ([integration by Microsoft](https://azure.microsoft.com/en-us/solutions/devops/terraform/))
+* vSphere (maintained by Terraform)
+* vCloud Director ([embraced by vCloud Director](https://blogs.vmware.com/vcloud/2019/04/vcloud-director-terraform.html))
+
+Existing Terraform projects can be transformed with [tf2pulumi](https://github.com/pulumi/tf2pulumi).
+
+Pulumi integrates *all* Kubernetes API objects, also custom resources, written in YAML or as Helm chart (TypeScript SDK). It tracks the status of basic resources, e.g. if all pods of a deployment are up (see also [https://github.com/pulumi/kubespy]).
+
+The Pulumi team started to ease multi-cloud adoption with a cloud-agnostic API: https://github.com/pulumi/pulumi-cloud (only AWS working, TypeScript).
+
+> Terraform state reference: https://blog.pulumi.com/using-terraform-remote-state-with-pulumi
+> Cross-language packages
+
